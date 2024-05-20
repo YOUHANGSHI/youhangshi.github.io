@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的个人网站</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">主页</a></li>
+                <li><a href="#about">关于我</a></li>
+                <li><a href="#portfolio">作品集</a></li>
+                <li><a href="#blog">博客</a></li>
+                <li><a href="#contact">联系我</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h1>欢迎来到我的个人网站</h1>
+        <p>这是一个展示我个人和专业信息的地方。</p>
+    </section>
+
+    <section id="about">
+        <h2>关于我</h2>
+        <p>在这里写一些关于你自己的信息。</p>
+    </section>
+
+    <section id="portfolio">
+        <h2>作品集</h2>
+        <div class="projects">
+            <div class="project">
+                <h3>项目1</h3>
+                <p>项目描述</p>
+            </div>
+            <div class="project">
+                <h3>项目2</h3>
+                <p>项目描述</p>
+            </div>
+            <!-- 你可以添加更多项目 -->
+        </div>
+    </section>
+
+    <section id="blog">
+        <h2>博客</h2>
+        <p>在这里展示你的最新博客文章。</p>
+    </section>
+
+    <section id="contact">
+        <h2>联系我</h2>
+        <p>邮箱: example@example.com</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 你的名字. 保留所有权利。</p>
+    </footer>
+</body>
+</html>
